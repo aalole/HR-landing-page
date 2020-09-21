@@ -19,6 +19,7 @@ red text color: background: #EF0633;
 body {
   max-width: 1440;
   margin: 0 auto;
+  font-family: proxima Nova , sans-serif;
 }
 
 .nav-links {
@@ -426,6 +427,7 @@ article * {
 .how__card * {
   text-align: left;
   padding: 5px 20px 5px 10px;
+  font-family: proxima Nova, sans-serif;
 }
 
 .how__card h3 {
@@ -471,6 +473,7 @@ article * {
 .news {
   padding: 30px 0;
   background: #fff;
+  font-family: proxima Nova, sans-serif;
 }
 
 .news__wrapper {
