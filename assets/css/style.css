@@ -44,7 +44,7 @@ body {
 
 .nav-links a:hover {
   background: rgba(33, 34, 34, 0.5);
-  color: #EF0633;
+  color: #ef0633;
   padding-left: 20px;
 }
 
@@ -157,13 +157,12 @@ nav {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 .bannerCard span {
   color: #03243e;
 }
-
 
 .bannerCard h3 {
   text-transform: capitalize;
@@ -173,7 +172,7 @@ nav {
   font-size: 30px;
   line-height: 59px;
   text-align: center;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* ###################   ABOUT SECTION ######### */
@@ -182,8 +181,8 @@ nav {
   background: #fff;
 }
 
-.about>h2 {
-  color: #EF0633;
+.about > h2 {
+  color: #ef0633;
   font-weight: bold;
   font-style: normal;
 }
@@ -210,7 +209,7 @@ nav {
   background: rgba(249, 155, 173, 0.5);
   padding: 15px 10px;
   text-align: center;
-  color: #EF0633;
+  color: #ef0633;
   text-align: left;
   line-height: 25px;
 }
@@ -236,7 +235,7 @@ button {
   width: 186px;
   line-height: 34px;
   text-align: center;
-  background: #EF0633;
+  background: #ef0633;
   color: #fff;
   border: none;
   box-shadow: 0px 6px 15px rgba(233, 40, 45, 0.25);
@@ -252,7 +251,7 @@ button {
 }
 
 h2 {
-  color: #EF0633;
+  color: #ef0633;
 }
 
 .pkg__heading,
@@ -295,7 +294,6 @@ h2 {
   line-height: 23px;
   letter-spacing: 0px;
   text-align: center;
-
 }
 
 .pkg article a {
@@ -309,14 +307,14 @@ h2 {
 }
 
 .pkg article a:hover {
-  background: #EF0633;
+  background: #ef0633;
   color: #fff;
   cursor: pointer;
   border-color: #fff;
 }
 
 article .price {
-  color: #EF0633;
+  color: #ef0633;
   font-size: 18px;
   font-weight: 700;
   line-height: 23px;
@@ -330,7 +328,7 @@ article .price {
   line-height: 23px;
   letter-spacing: 0px;
   text-align: center;
-  color: #888
+  color: #888;
 }
 
 article * {
@@ -338,17 +336,17 @@ article * {
 }
 
 .pkg__img--p3 {
-  background: #00BA34;
+  background: #00ba34;
   color: #f3f4f1;
 }
 
 .pkg__img--p2 {
-  background: #EF0633;
+  background: #ef0633;
   color: #f3f4f1;
 }
 
 .pkg__img--p1 {
-  background: #0057DA;
+  background: #0057da;
   color: #f3f4f1;
 }
 
@@ -362,7 +360,7 @@ article * {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   margin: 25px 0;
 }
-.how__card:hover{
+.how__card:hover {
   filter: brightness(1.5);
 }
 
@@ -371,7 +369,7 @@ article * {
   width: 230px;
   margin: auto;
   display: block;
-  background: #EF0633;
+  background: #ef0633;
   box-shadow: 0px 6px 15px rgba(233, 40, 45, 0.25);
   border-radius: 6px;
   font-style: normal;
@@ -379,11 +377,12 @@ article * {
   font-size: 17px;
   line-height: 34px;
   padding: 5px 10px;
+  border-color: none
 }
 
 .pkg__play:hover,
 .about__container button:hover {
-  color: #EF0633;
+  color: #ef0633;
   background: #fff;
   cursor: pointer;
 }
@@ -401,24 +400,25 @@ article * {
   font-family: proxima Nova "Lucida Sans", "Lucida Sans Unicode", Geneva,
     Verdana, sans-serif;
   color: #fff;
+  background: transparent;
 }
 
-.how__wrapper h5 {
+.how__wrapper>h5 {
   font-size: 17px;
   font-weight: 400;
   color: #fff;
   padding: 30px 0 15px 0;
 }
 
-.how__wrapper p {
+.how__wrapper>p {
   font-size: 25px;
   font-weight: 700;
   padding-bottom: 25px;
 }
 
 .card__bg--red,
-.how__wrapper>h5,
-.how__wrapper>p {
+.how__wrapper > h5,
+.how__wrapper > p {
   max-width: 90%;
   margin: 0 auto;
 }
@@ -431,14 +431,13 @@ article * {
 .how__card h3 {
   padding: 20px 0 45px 10px;
   font-family: Proxima Nova;
-  font-size: 24px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: 34px;
   letter-spacing: 0px;
   text-align: left;
   color: #fff;
-
 }
 
 .how__card span {
@@ -448,14 +447,13 @@ article * {
 
 .how__card p {
   font-weight: 400;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 24px;
 }
 
 .card__bg--red {
   background: rgba(239, 6, 51, 0.7);
   border-radius: 6px;
-  opacity: 0.5;
 }
 
 .card__bg--brown {
@@ -463,8 +461,6 @@ article * {
   margin: 0 auto;
   background: rgba(33, 34, 35, 0.7);
   border-radius: 6px;
-  opacity: 0.45;
-  /* height: 160px; */
 }
 
 .how__card {
@@ -489,11 +485,11 @@ article * {
   justify-content: center;
   align-items: center;
   background: #e5e5e5;
-  transition: border 1s ease, background 2s ease, color 2s ease;
+  transform: border 1s ease, background 2s ease, color 2s ease;
 }
-.news_content:hover{
+.news_content:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
-  transform: scale(0.98)
+  transform: scale(0.98);
 }
 .news__text {
   padding: 10px;
@@ -501,7 +497,7 @@ article * {
 }
 
 .news__text p {
-  color: #EF0633;
+  color: #ef0633;
   font-size: 16px;
   line-height: 25px;
   text-align: left;
@@ -523,10 +519,10 @@ article * {
 
 /* ############## FOOTER ################# */
 .chat {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 6px 15px rgba(71, 5, 7, 0.25);
   border-radius: 1000px;
-  color: #E9282D;
+  color: #e9282d;
   width: 170px;
   display: block;
   padding: 10px 0;
@@ -544,13 +540,13 @@ article * {
 .chat__icon {
   font-size: 22px;
   border-radius: 50%;
-  background: #E9282d;
+  background: #e9282d;
   color: #fff;
   padding: 5px;
 }
 
 .chat:hover {
-  background: #E9282d;
+  background: #e9282d;
   color: #fff;
   cursor: pointer;
 }
@@ -570,10 +566,10 @@ footer {
   text-decoration: none;
 }
 
-/* .f__links{
+.f__links {
   max-width: 90%;
   margin: 0 auto;
-} */
+}
 .f__links li {
   display: inline-block;
   margin: 0 3px;
@@ -612,7 +608,7 @@ footer ul li a {
 
 .contact__footer--label {
   font-size: 22px;
-  padding-bottom: 5px
+  padding-bottom: 5px;
 }
 
 .c__li {
@@ -625,7 +621,6 @@ footer ul li a {
   margin-top: 20px;
   font-size: 16px;
 }
-
 
 small,
 .f__b--middle {
