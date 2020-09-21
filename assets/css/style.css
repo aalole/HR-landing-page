@@ -447,7 +447,7 @@ article * {
 
 .how__card p {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 24px;
 }
 
@@ -496,11 +496,12 @@ article * {
   width: 60%;
 }
 
-.news__text p {
+.news__text a {
   color: #ef0633;
   font-size: 16px;
   line-height: 25px;
   text-align: left;
+  text-decoration: none
 }
 
 .news__text span {
@@ -570,14 +571,16 @@ footer {
   max-width: 90%;
   margin: 0 auto;
 }
-.f__links li {
-  display: inline-block;
-  margin: 0 3px;
+.f__links {
+  display: flex;
+  /* margin: 0 3px; */
+  justify-content: center
 }
 
 .f__links li a span {
   /* display: block; */
   margin-left: 4px;
+  padding-right: 5px
 }
 
 .footer__wrapper {
