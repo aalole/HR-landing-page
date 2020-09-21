@@ -136,8 +136,8 @@ nav {
 }
 
 .banner {
-  flex: 1 0 auto;
   display: flex;
+  flex: 1 0 auto;
   align-items: center;
   justify-content: center;
 }
@@ -145,8 +145,6 @@ nav {
 .bannerCard {
   flex: 0 0 90%;
   text-align: center;
-  /* padding: 100px 0; */
-  /* outline: 1px solid #191919; */
   outline-offset: -10px;
 }
 
@@ -216,13 +214,6 @@ nav {
   text-align: left;
   line-height: 25px;
 }
-
-/* .mission h3,
-.vision h3 {
-  font-weight: 600;
-  font-size: 24px;
-  color: darkred;
-} */
 
 .ms__vs {
   margin-top: 20px;
@@ -316,7 +307,8 @@ h2 {
   margin: auto;
   color: #565656;
 }
-.pkg article a:hover{
+
+.pkg article a:hover {
   background: #EF0633;
   color: #fff;
   cursor: pointer;
@@ -385,9 +377,10 @@ article * {
   line-height: 34px;
   padding: 5px 10px;
 }
-.pkg__play:hover, 
-.about__container button:hover{
-  color:#EF0633;
+
+.pkg__play:hover,
+.about__container button:hover {
+  color: #EF0633;
   background: #fff;
   cursor: pointer;
 }
@@ -538,14 +531,16 @@ article * {
   font-size: 16px;
   line-height: 26px;
 }
-.chat__icon{
- font-size: 22px;
+
+.chat__icon {
+  font-size: 22px;
   border-radius: 50%;
   background: #E9282d;
   color: #fff;
- padding: 5px;
+  padding: 5px;
 }
-.chat:hover{
+
+.chat:hover {
   background: #E9282d;
   color: #fff;
   cursor: pointer;
@@ -632,10 +627,12 @@ small,
   justify-content: space-between;
   align-items: center;
 }
-.logo__img{
+
+.logo__img {
   padding-right: 5px;
 }
-.logo__img--footer{
+
+.logo__img--footer {
   height: 20px;
   padding-bottom: 3px;
 }
