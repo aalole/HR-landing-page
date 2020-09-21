@@ -66,14 +66,14 @@ body {
   width: 25px;
   height: 4px;
   margin: 5px;
-  background: red;
-  transition: transform 2s ease, opacity 2s ease;
+  background: #fff;
+  transition: transform 1s ease, opacity 2s ease;
 }
 
 .btn {
   padding: 2px;
   display: inline-block;
-  border: 1px solid red;
+  border: 1.5px solid red;
   cursor: pointer;
   align-self: center;
 }
@@ -362,6 +362,9 @@ article * {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
   margin: 25px 0;
 }
+.how__card:hover{
+  filter: brightness(1.5);
+}
 
 .pkg__play {
   text-align: center;
@@ -385,7 +388,7 @@ article * {
   cursor: pointer;
 }
 
-/* #################### HOW IT WORKS */
+/* #################### HOW IT WORKS #############*/
 
 .how-it-works {
   background: linear-gradient(rgba(0, 33, 71, 0.5), rgba(0, 33, 71, 0.5)),
@@ -413,7 +416,9 @@ article * {
   padding-bottom: 25px;
 }
 
-.card__bg--red {
+.card__bg--red,
+.how__wrapper>h5,
+.how__wrapper>p {
   max-width: 90%;
   margin: 0 auto;
 }
@@ -484,8 +489,12 @@ article * {
   justify-content: center;
   align-items: center;
   background: #e5e5e5;
+  transition: border 1s ease, background 2s ease, color 2s ease;
 }
-
+.news_content:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(0.98)
+}
 .news__text {
   padding: 10px;
   width: 60%;
@@ -493,9 +502,9 @@ article * {
 
 .news__text p {
   color: #EF0633;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 25px;
-  text-align: justify;
+  text-align: left;
 }
 
 .news__text span {
@@ -558,9 +567,13 @@ footer {
   text-align: center;
   display: block;
   padding-bottom: 20px;
-
+  text-decoration: none;
 }
 
+/* .f__links{
+  max-width: 90%;
+  margin: 0 auto;
+} */
 .f__links li {
   display: inline-block;
   margin: 0 3px;
@@ -580,14 +593,14 @@ footer {
 footer ul li {
   list-style: none;
   padding: 5px 0;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 20px;
 }
 
 footer ul li a {
   text-decoration: none;
-  color: #f5f4f2;
-  font-size: 14px;
+  color: #fff;
+  font-size: 11px;
   font-family: proxima Nova, sans-serif;
 }
 
@@ -598,7 +611,8 @@ footer ul li a {
 }
 
 .contact__footer--label {
-  font-size: 25px;
+  font-size: 22px;
+  padding-bottom: 5px
 }
 
 .c__li {
@@ -611,6 +625,7 @@ footer ul li a {
   margin-top: 20px;
   font-size: 16px;
 }
+
 
 small,
 .f__b--middle {
